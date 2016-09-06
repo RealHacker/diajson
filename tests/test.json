@@ -1,0 +1,62 @@
+{
+	"node": {
+		"type": "layer",
+		"id": "root",
+		"children":[
+			{
+				"type":"box",
+				"id": "nginx",
+				"label": "Nginx"
+			},
+			{
+				"type":"cluster",
+				"id": "webapp",
+				"children": [
+					{
+						"type": "box",
+						"id": "webapp1",
+						"label": "webapp"
+					},
+					{
+						"type": "box",
+						"id": "webapp2",
+						"label": "webapp"
+					}
+				]
+			},
+			{
+				"type": "container",
+				"id": "dbcontainer",
+				"child":{
+					"type":"repeat",
+					"id": "db",
+					"count": 16,
+					"child": {
+						"type": "box",
+						"id": "dbbox",
+						"label": "MySQL"
+					}
+				},
+				"label": "DB Layer"
+			}
+		]
+	},
+	"edges": [
+		{
+			"src": "nginx",
+			"dst": "webapp1"
+		},
+		{
+			"src": "nginx",
+			"dst": "webapp2"
+		},
+		{
+			"src": "webapp1",
+			"dst": "dbcontainer"
+		},
+		{
+			"src": "webapp2",
+			"dst": "dbcontainer"
+		}
+	]
+}

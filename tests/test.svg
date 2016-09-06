@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="800" width="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <g style="fill-opacity:1.0; stroke:black;
+  stroke-width:1;">
+<rect x="260" y="30" height="40" width="80" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="270" y="60" font-family="Verdana" font-size="12" fill="blue">Nginx</text><rect x="203" y="90" height="40" width="92" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="213" y="120" font-family="Verdana" font-size="12" fill="blue">webapp</text>
+<rect x="305" y="90" height="40" width="92" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="315" y="120" font-family="Verdana" font-size="12" fill="blue">webapp</text>
+<rect x="52" y="150" height="90" width="496" fill="none" stroke="navy" stroke-width="2" rx="2" ry="2" stroke-dasharray="2,2" />
+<text x="62" y="180" font-family="Verdana" font-size="12" fill="blue">DB Layer</text>
+<rect x="72" y="180" height="40" width="80" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="82" y="210" font-family="Verdana" font-size="12" fill="blue">MySQL</text>
+<rect x="162" y="180" height="40" width="80" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="172" y="210" font-family="Verdana" font-size="12" fill="blue">MySQL</text>
+<rect x="358" y="180" height="40" width="80" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="368" y="210" font-family="Verdana" font-size="12" fill="blue">MySQL</text>
+<rect x="448" y="180" height="40" width="80" fill="none" stroke="black" stroke-width="2" rx="4" ry="4" />
+<text x="458" y="210" font-family="Verdana" font-size="12" fill="blue">MySQL</text>
+
+<text x="252" y="200" font-family="Verdana" font-size="12" fill="blue">...16...</text><line x1="300" y1="70" x2="249" y2="90" stroke-width="2"/><line x1="300" y1="70" x2="351" y2="90" stroke-width="2"/><line x1="249" y1="130" x2="300" y2="150" stroke-width="2"/><line x1="351" y1="130" x2="300" y2="150" stroke-width="2"/> </g>
+</svg>

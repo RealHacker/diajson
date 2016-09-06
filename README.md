@@ -6,7 +6,7 @@ The diagram is rendered in a .svg file, you can convert that to any image format
 
 The JSON file format includes several node types: box/cluster/layer/container/repeat, and edges between the nodes. The format is quite self-explanatory. To draw a diagram like this:
 
-![https://raw.githubusercontent.com/RealHacker/diajson/master/tests/test.svg](https://raw.githubusercontent.com/RealHacker/diajson/master/tests/test.svg)
+![https://raw.githubusercontent.com/RealHacker/diajson/master/tests/test.png](https://raw.githubusercontent.com/RealHacker/diajson/master/tests/test.png)
 
 Describe your diagram like this:
 
